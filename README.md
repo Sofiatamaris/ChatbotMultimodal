@@ -14,7 +14,7 @@ Para la instalacion del chat con IA, clonar el repositorio y seguir estos pasos:
 
 3. Requisitos de instalación: ```pip install -r requisitos.txt```
 
-4. Configuración de modelos locales. descargue los modelos que desea implementar.(https://huggingface.co/mys/ggml_llava-v1.5-7b/tree/main) está el modelo de llama para el chat de imágenes (ggml-model-q5_k.gguf y mmproj-model-f16. guf).
+4. Configuración de modelos locales. descargue los modelos que desea implementar.(https://huggingface.co/mys/ggml_llava-v1.5-7b/tree/main) está el modelo de llava para el chat de imágenes (ggml-model-q5_k.gguf y mmproj-model-f16. guf).
 Y el [modelo mistral cuantificado] (https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) forma TheBloke (mistral-7b-instruct-v0.1.Q5_K_M.gguf).
 
 5. Personalizar archivo de configuración: verifique el archivo de configuración y cámbielo según los modelos que descargó.
